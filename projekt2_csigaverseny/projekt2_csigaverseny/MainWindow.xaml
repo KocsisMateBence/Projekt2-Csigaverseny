@@ -1,0 +1,57 @@
+﻿<Window x:Class="projekt2_csigaverseny.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekt2_csigaverseny"
+        mc:Ignorable="d"
+        Name="ablak" Title="Verseny" Height="680" Width="1024" Background="#FFE9EFEB">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="495*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Name="palya1" HorizontalAlignment="Left" Height="107" Margin="0,81,0,0" Stroke="#FF3A3838" VerticalAlignment="Top" Width="1024" Grid.ColumnSpan="3" Fill="#FF666267"/>
+        <Rectangle x:Name="palya3" HorizontalAlignment="Left" Height="117" Margin="0,295,0,0" Stroke="Black" VerticalAlignment="Top" Width="1044" Fill="#FF666267" Grid.ColumnSpan="3"/>
+        <Rectangle x:Name="palya2" HorizontalAlignment="Left" Height="107" Margin="0,188,0,0" Stroke="Black" VerticalAlignment="Top" Width="1044" Grid.ColumnSpan="3" Fill="#FF666267"/>
+        <Rectangle Name="rajt" HorizontalAlignment="Left" Height="331" Margin="130,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" Fill="Black" Grid.Column="2"/>
+        <Label Content="CÉL" FontSize="120" HorizontalAlignment="Left" Margin="746,233,0,0" VerticalAlignment="Top" Width="332" Height="161" RenderTransformOrigin="0.5,0.538" Grid.Column="2">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.015"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+
+
+
+        </Label>
+        <Rectangle Name="cel" HorizontalAlignment="Left" Height="331" Margin="978,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" Fill="Black" Grid.Column="2"/>
+        <Button FontSize="15" Content="Start" HorizontalAlignment="Left" Margin="3,30,0,0" VerticalAlignment="Top" Width="239" Height="24" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button FontSize="15" Content="Új futam" HorizontalAlignment="Left" Margin="243,30,0,0" VerticalAlignment="Top" Width="239" Height="24" Grid.Column="2"/>
+        <Button FontSize="15" Content="Új bajnokság" HorizontalAlignment="Left" Margin="493,30,0,0" VerticalAlignment="Top" Width="239" Height="24" Grid.Column="2"/>
+        <Label FontSize="50" Name="elsoHelyezett" HorizontalAlignment="Left" Margin="534,93,0,0" VerticalAlignment="Top" Width="56" Height="83" Grid.Column="2"/>
+        <Label FontSize="50" Name="masodikHelyezett" HorizontalAlignment="Left" Margin="534,203,0,0" VerticalAlignment="Top" Width="92" Height="102" Grid.Column="2"/>
+        <Label FontSize="50" Name="harmadikHelyezett" HorizontalAlignment="Left" Margin="534,310,0,0" VerticalAlignment="Top" Width="56" Height="107" Grid.Column="2"/>
+        <Label FontSize="15" Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="5,454,0,0" VerticalAlignment="Top" Width="302" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="RAJT" FontSize="120" HorizontalAlignment="Left" Margin="22,202,0,0" VerticalAlignment="Top" Width="332" Height="162" RenderTransformOrigin="0.5,0.538" Grid.Column="2">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.015"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+
+
+
+        </Label>
+        <Label Name="tabella" FontSize="15" Grid.Column="2" Content="" HorizontalAlignment="Left" Margin="146,466,0,0" VerticalAlignment="Top" Width="586" Height="148"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\bin\Debug\projekt2_csigaverseny.exe.config
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\bin\Debug\projekt2_csigaverseny.exe
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\bin\Debug\projekt2_csigaverseny.pdb
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.csproj.AssemblyReference.cache
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.csproj.SuggestedBindingRedirects.cache
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\MainWindow.g.cs
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\App.g.cs
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny_MarkupCompile.cache
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny_MarkupCompile.lref
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\MainWindow.baml
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.g.resources
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.Properties.Resources.resources
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.csproj.GenerateResource.cache
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.csproj.CoreCompileInputs.cache
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.exe
+E:\VS projektek\C#\projekt2_csigaverseny\projekt2_csigaverseny\obj\Debug\projekt2_csigaverseny.pdb
