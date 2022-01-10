@@ -46,19 +46,21 @@
 
 
         </Label>
-        <Label Name="tabella" FontSize="15" Content="" HorizontalAlignment="Left" Margin="175,486,0,0" VerticalAlignment="Top" Width="586" Height="148"/>
-        <Button FontSize="15" Content="Start" HorizontalAlignment="Left" Margin="256,31,0,0" VerticalAlignment="Top" Width="240" Height="24"/>
-        <Button FontSize="15" Content="Új futam" HorizontalAlignment="Left" Margin="512,31,0,0" VerticalAlignment="Top" Width="239" Height="24"/>
-        <Button FontSize="15" Content="Új bajnokság" HorizontalAlignment="Left" Margin="769,31,0,0" VerticalAlignment="Top" Width="233" Height="24"/>
-        <Image Margin="164,117,686,433" Source="/rossi.png" Stretch="Fill">
+        <Label Name="tabella" FontSize="15" Content="" HorizontalAlignment="Left" Margin="175,486,0,0" VerticalAlignment="Top" Width="647" Height="148"/>
+        <Button Name="start" FontSize="15" Content="Start" HorizontalAlignment="Left" Margin="256,31,0,0" VerticalAlignment="Top" Width="240" Height="24" Click="start_Click"/>
+        <Button Name="ujFutam" FontSize="15" Content="Új futam" HorizontalAlignment="Left" Margin="512,31,0,0" VerticalAlignment="Top" Width="239" Height="24" Click="ujFutam_Click"/>
+        <Button Name="ujBajnoksag" FontSize="15" Content="Új bajnokság" HorizontalAlignment="Left" Margin="769,31,0,0" VerticalAlignment="Top" Width="233" Height="24"/>
+        <Image Margin="0,10,843,564" Source="/zold_zaszlo.png" Stretch="Fill"/>
+        <Image Name="rossi" Source="/rossi.png" Margin="137,100,724,450" Height="114" >
             <Image.RenderTransform>
                 <ScaleTransform ScaleX="-1"/>
             </Image.RenderTransform>
         </Image>
-        <Image Margin="3,236,860,332" Source="/hyundai.png" Stretch="Fill"/>
-        <Image Margin="-10,291,860,214" Source="/subaru.png" Stretch="Fill"/>
-        <Image Margin="0,10,843,564" Source="/zold_zaszlo.png" Stretch="Fill"/>
-        
+        <Image Name="hyundai" HorizontalAlignment="Left" Height="114" Margin="21,235,0,0" VerticalAlignment="Top" Width="160" Source="/hyundai.png"/>
+        <Image Name="subaru" HorizontalAlignment="Left" Height="114" Margin="24,332,0,0" VerticalAlignment="Top" Width="160" Source="/subaru.png"/>
+
+
+
 
 
 
